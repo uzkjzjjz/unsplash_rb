@@ -5,8 +5,8 @@ require 'unsplash/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "unsplash"
-  spec.version       = Unsplash::VERSION
-  spec.authors       = ["Aaron Klaassen"]
+  spec.version       = Unsplash::required_ruby_version
+  spec.authors       = ["Aaron Klaassen"U
   spec.email         = ["aaron@unsplash.com"]
 
   spec.summary       = %q{Ruby wrapper for the Unsplash API.}
